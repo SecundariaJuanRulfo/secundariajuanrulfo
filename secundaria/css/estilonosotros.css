@@ -1,0 +1,355 @@
+
+a:link, a:active, a:visited {
+    text-decoration:none;
+    color: #000;
+}
+
+a {
+	text-decoration:none;
+    color: #000;
+}
+/*E4EDF9*/
+#main-container{
+	height: 100vh;
+	background-image: linear-gradient(to top, #E4EDF9, #ffffff);
+}
+
+#navegacion-principal{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFF;
+	height: 10.38vw;
+	width: 75vw;
+	border-radius: .8vw;
+	box-shadow: 1vw .7vw 1.5vh 0 #ABC3CE;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 10000;
+}
+
+#navegacion-principal-logo-nav{
+	position: absolute;
+	top: .5vw;
+	left: .5vh;
+	height: 7.5vw;
+	width: 7.5vw;
+}
+
+#navegacion-principal-nombre-nav{
+	font-family: 'Courgette', cursive;
+	position: absolute;
+	top:1.2vw;
+	font-size: 3vw;
+	color: #9AA2A4;
+}
+
+#navegacion-principal-nombre-nav-2{
+	font-family: 'Courgette', cursive;
+	position: absolute;
+	font-size: 2.2vw;
+	top:5vw;
+	color: #2369C4;
+}
+
+#navegacion-principal li{
+	display: inline-block;
+	background: #FFF;
+	margin: auto;
+	font-family: 'Bree Serif', serif;
+	font-size: 1.5vw;
+	padding: .5vw;
+}
+
+#navegacion-principal li:hover{
+	text-decoration:none;
+	background: #9AA2A4;
+	color: #FFF;
+}
+
+.inicio-nav:hover a{
+	background: #9AA2A4;
+	color: #FFF;
+}
+
+#nombre-nav-2-menu-base{
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+}
+
+#main-container-posicion{
+	position: absolute;
+	display: flex;
+	width: 75vw;
+	top: 11.9vw;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 200;
+}
+
+#main-container-content{
+	position: absolute;
+	text-align: justify;
+	height: auto;
+	width: 75vw;
+	left: 0;
+	margin-bottom: 13vh;
+	padding: 1.2vw;
+}
+
+#main-container-content-temp{
+	font-family: 'Bree Serif', serif;
+	font-size: 3vw;
+}
+
+#main-container-loggin{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	height: 25vw;
+	width: 24vw;
+	border-radius: 2vw;
+	background: #0D5F83;
+	top: 0;
+	right: 0;
+}
+
+#main-container-loggin-align{
+	margin-top: 1vw;
+}
+
+#etiqueta-nombre, #etiqueta-password{
+	display: inline-block;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-family: 'Bree Serif', serif;
+	font-size: 1.2vw;
+	color: #CFD1D2;
+}
+
+#main-container-loggin-banner{
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-family: 'Bree Serif', serif;
+	font-size: 1.4vw;
+	color: #CFD1D2;
+}
+
+.form-elements{
+	background: transparent;
+	border: none;
+	width: 18vw;
+	border-bottom: .2vw solid #04293B;
+	padding-left: 1vw;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+	border-radius: 2vw;
+	font-family: 'Bree Serif', serif;
+	color: #CFD1D2;
+	font-size: 1vw;
+}
+
+.form-elements:focus{
+	outline:none;
+	background-image: linear-gradient(to top, #0D5F83, #208BB9);
+}
+
+#main-container-loggin-form-submit-center{
+	justify-content: center;
+	text-align: center;
+}
+
+#main-container-loggin-form-submit{
+	display: inline-block;
+	background: transparent;
+	border: .2vw solid #04293B;
+	padding: .5vw;
+	padding-left: .7vw;
+	padding-right: .7vw;
+	border-radius: 2vw;
+	margin-top: .4vw;
+	font-family: 'Bree Serif', serif;
+	color: #CFD1D2;
+	font-size: 1.4vw;
+}
+
+#main-container-loggin-form-submit:hover{
+	background: #04293B;
+	transition-property: initial;
+	transition-duration: .5s;
+}
+
+#main-container-loggin-form-submit:active{
+	outline:none;
+	background-image: linear-gradient(to top, #0D5F83, #208BB9);
+}
+
+#main-container-loggin-form-warming{
+	background: transparent;
+	border: none;
+	width: 18vw;
+	padding-left: 1vw;
+	padding-bottom: .5vw;
+	border-radius: 2vw;
+	font-family: 'Bree Serif', serif;
+	color: #FF0000;
+	font-size: 1vw;
+}
+
+#main-container-footer{
+	position: fixed;
+	display: inline-block;
+	justify-content: flex-end;
+	height: 5.6vw;
+	width: 100vw;
+	background: #7E9FAE;
+	bottom: 0;
+	box-shadow: 1vw .7vw 1.5vh 1.5vh #ABC3CE;
+	z-index: 1000;
+}
+
+#main-container-footer-direccion{
+	position: absolute;
+	display: inline-block;
+	justify-content: flex-end;
+	text-align: right;
+	background: #7E9FAE;
+	bottom: 0;
+	width: 25vw;
+	right: 0;
+	margin-right: 2vw;
+	margin-bottom: .8vw;
+}
+
+#main-container-footer-data{
+	position: absolute;
+	display: inline-block;
+	justify-content: flex-start;
+	background: #7E9FAE;
+	bottom: 0;
+	left: 0;
+	width: 40vw;
+	margin-left: 2vw;
+	margin-bottom: .5vw;
+}
+
+#main-container-footer-dir1, #main-container-footer-dir2, #main-container-footer-dir3{
+	position: fixed;
+	display: block;
+	margin-right: 1vw;
+}
+
+#main-container-footer-dir1, #main-container-footer-dir2, #main-container-footer-dir3 label{
+	position: relative;
+	font-family: 'Bree Serif', serif;
+	font-size: 1vw;
+	color: #FFFFFF;
+	margin-top: .5vw;
+	letter-spacing: .3vw;
+}
+
+#main-container-footer-dir2 a u{
+	font-size: 1vw;
+}
+
+#main-container-footer-dir2 a{
+	position: relative !important;
+	font-family: 'Bree Serif', serif !important;
+	font-size: 1.2vw !important;
+	color: #FFFFFF !important;
+	margin-top: .5vw !important;
+	letter-spacing: .2vw !important;
+}
+
+#main-container-registro-form-primary{
+	position: relative;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+#tabla{
+	background: transparent;
+	border: none;
+	width: 46vw;
+	height: 2.5vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+	font-family: 'Bree Serif', serif;
+	color: #034A65;
+	font-size: 1.2vw;
+	margin-left: .5vw;
+	margin-bottom: .6vw;
+	margin-right: .2vw;
+	margin-top: .4vw;
+}
+
+#tablaregistro a:hover{
+	color: #28A7D9;
+}
+
+#tabla #espaciado{
+	height: 2vw;
+	background: transparent;
+}
+
+#tabla #idmensaje{
+	font-size: 1.5vw;
+	padding-bottom: .5vw;
+}
+
+#idmensaje-boton{
+	width: 8vw;
+	
+}
+
+#tabla #materia{
+	padding-bottom: .5vw;
+}
+
+#tabla #asunto{
+	padding-bottom: .5vw;
+}
+
+.datos{
+	font-family: 'Bree Serif', serif;
+	font-size: 1.3vw;
+	color: #033F57;
+}
+
+#lista-eventos{
+	display: inline-block;
+	margin-left: 6vw;
+
+}
+
+.titulo{
+	font-size: 1.8vw;
+	font-family: 'Bree Serif', serif;
+	color: #033F57;
+}
+
+#centrar-slogan, #centrar-date, #centrar-mision, #centrar-vision{
+	font-family: 'Bree Serif', serif;
+	display: inline-block;
+	width: 75vw;
+	text-align: center;
+}
+
+#foto img{
+	position: relative;
+	display: inline-block;
+	width: 55vw;
+	height: 38vw;
+	object-fit: contain;
+	left: 10vw;
+}
